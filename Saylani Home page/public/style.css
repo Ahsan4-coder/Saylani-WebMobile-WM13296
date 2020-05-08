@@ -1,0 +1,497 @@
+
+.row.header {
+    background-color: rgb(0, 106, 199);
+    height: 55px;
+    
+}
+.socialClass  {
+    width: 30px;
+}
+
+ul.nav {
+    white-space: break-spaces;
+    margin: 10px;
+    position: relative;
+    right: 20px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        display: flex;
+    }
+}
+
+
+@media (min-width: 768px) {
+p.top.headline {
+    color: white;
+    font-size: 15px;
+    margin: 17px 0px;
+}
+}
+.topbox1 {
+    border: 1px rgb(132, 243, 145) solid;
+    background-color: white;
+    padding: 5px;
+    color: green;
+    font-size: smaller;
+    
+}
+
+
+.topbox2 {
+    border: 1px rgb(132, 243, 145) solid;
+    background-color: white;
+    padding: 5px;
+    color: green;
+    font-size: smaller;
+}
+.topbox3 {
+    border: 1px rgb(132, 243, 145) solid;
+    background-color: white;
+    padding: 5px;
+    color: green;
+    font-size: smaller;
+}
+.col-md-3-1 {
+    margin: 15px 0px;
+    position: relative;
+    left: 25px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+    position: relative;
+    right: 20px;
+}
+}
+
+img.Saylani_logo {
+    width: 200px;
+    position: relative;
+    right: 20px;
+}
+
+
+ .bg-dark {
+    background-color: rgb(255, 255, 255)!important;
+} 
+
+ul.navbar-nav.ml-auto li a {
+    color: green !important;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: rgb(0, 106, 199);
+    border: 1px solid rrgb(0, 106, 199);
+    border-radius: 0.25rem;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: green;
+    
+}
+.nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+    height: 82px !important;
+}
+
+.button.homebutton:hover {
+        background-color: rgb(0, 106, 199) !important;
+ }
+
+ .col-md-12.introduction {
+    text-align: center;
+    background-color: rgb(0, 106, 199);
+    color: white;
+    height: 30px;
+}
+.row.line {
+    background-color: rgb(0, 106, 199);
+}
+.para H1 {
+    color: rgb(0, 106, 199);
+}
+
+.para H2 {
+    color: green;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 34px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: 40px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    text-align: center;
+    contain: content;
+    
+}
+
+.row.figure {
+   background-color: rgb(0, 106, 199);
+}
+
+img.food {
+    width: 70;
+    position: relative;
+    top: 30px
+}
+
+h1.number {
+    font-size: 65px;
+    color: white;
+}
+p.line {
+    font-weight: 700;
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+.container.figure {
+    position: relative;
+    top: 30px;
+}
+}
+.pngsImg {
+    margin: 15px;
+    width: 75px;
+}
+.col-md-4.pngsImg {
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+ }
+
+.h4, h4 {
+    font-size: 32px;
+}
+
+@media (min-width: 768px) {
+.col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 30.333333%;
+    padding: 21px 12px;
+}
+}
+
+.row.box2 {
+    position: relative;
+    bottom: 6px;
+}
+
+.row.paragraph {
+    background-color: #86868612;
+}
+h3.mission {
+    text-align: -webkit-left;
+    margin: 22px
+}
+
+h3.Events {
+    text-align: center;
+}
+
+.hepatitis {
+    border: 0px solid black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+img.hepatitis_img {
+    width: 39px;
+    position: relative;
+    bottom: 5px;
+}
+
+@media (min-width: 768px) {
+.col-md-4.detail {
+    position: relative;
+    left: 110px;
+    bottom: 18px;
+}  
+}
+.hepatitis {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 298px ;
+}
+
+.hepatitis {
+    top: -35px;
+    left: 0px;
+    margin-top: 27px;
+    position: relative;
+    bottom: 30px;
+}
+
+img.hepatitis_img {
+    width: 38px;
+    position: relative;
+    bottom: 5px;
+    right: 20px;
+}
+img.hepatitis_img_t {
+    position: relative;
+    right: 34px;
+    width: 39px;
+}
+
+img.IMG_Gallery {
+    width: 210px;
+    
+}
+
+.row.image.gallery {
+    height: 320px;
+}
+img.icon {
+    margin: 30px;
+}
+
+@media (min-width: 768px) {
+.col-md-4.links {
+    display: flex;
+}
+}
+
+@media (min-width: 1200px) {
+.container.Footer_area {
+    background-color: rgb(27, 26, 39);
+}
+}
+
+
+@media (min-width: 1200px) {
+.row.footer_black {
+
+    background-color: rgb(27, 26, 39);
+}
+}
+
+.col-md-4.address {
+    color: white;
+}
+
+.col-md-4.links {
+    color: white;
+}
+.col-md-4.connects {
+    color: white;
+}
+img.footer_img {
+    width: 30px;
+}
+
+.footer_icon {
+    position: relative;
+    bottom: 20px;
+}
+
+@media (min-width: 768px) {
+.col-md-4.links {
+    position: relative;
+    left: 120px;
+}
+}
+
+@media (min-width: 768px) {
+.col-md-4.connects {
+    position: relative;
+    left: 90px;
+}
+}
+
+.row.lastfooter {
+    background-color: rgb(0, 106, 199);
+}
+.copyright {
+    font-size: 15px;
+}
+
+.copyright {
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    bottom: 25px;
+}
+
+@media (min-width: 768px) {
+.col-md-4.links {
+    position: relative;
+    left: 75px;
+    justify-content: center;
+}
+}
+
+.row.lastfooter {
+    height: 66px;
+}
+
+
+
+.row.mission {
+    background-color: #86868612;
+}
+.row.upcoming_event {
+    background-color: #86868612;
+}
+
+.row.box_two {
+    padding-bottom: 35px;
+}
+
+.row.image.gallery {
+    height: 320px;
+    padding-top: 13px;
+    margin: 40px 4px;
+}
+img.IMG_Gallery {
+    width: 210px;
+    margin: 0px 1px;
+}
+
+.row.mission {
+    padding-top: 35px;
+}
+
+.row.header2 {
+    background-color: white;
+    height: 60px;
+}
+
+
+
+img.Saylani_logo {
+    width: 200px;
+    position: relative;
+    right: 55px;
+    bottom: 18px;
+}
+
+
+@media (max-width: 576px) {
+   
+.col-md-4.pngsImg {
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+    
+}
+.imgallery.py-5.text-center {
+    position: relative;
+    right: 34px;
+}
+
+img.Saylani_logo {
+    position: relative;
+    top: 1px;
+
+}
+.col-md-3.sociallogo {
+    position: relative;
+    left: 100px;
+}
+    }
+
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.row.galleries {
+    position: relative;
+    left: 35px;
+}
+
+.text-success {
+    text-align: center;
+}
+
+.col-md-3.sociallogo {
+    position: relative;
+    left: 18px;
+}
+.footer{
+    background-color: #25272e;
+}
+
+p.adress {
+    margin: 15px;
+}
+ul.contactNo li {
+    text-align: left;
+
+}
+ul.contactNo  {
+    padding:0 ;
+}
+p.adress {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.bg-dark {
+    background-color: #25272e !important;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    bottom: 25px;
+}
+.container.footer-1. {
+    background-color: rgb(30, 32, 52);
+}
+.row.footer1 {
+    background-color: rgb(30, 32, 52);
+}
+
+.col-md-6.fot1 {
+    margin-top: 25px;
+}
+
+.col-md-6.fot2 {
+    margin-top: 25px;
+
+}
+
+.col-md-6.fot2 {
+    margin-top: 25px;
+}
+
+.row.footer_end {
+    background-color:rgb(0, 106, 199) ;
+    height: 30px;
+}
+.container.Footer_last {
+    background-color:rgb(0, 106, 199)
+
+}
