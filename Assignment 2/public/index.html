@@ -1,0 +1,154 @@
+
+<html lang="en">
+<head>
+    <title>Assignment 2 by | ahsan (WM13296)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="maindiv">
+        <div class="headerdiv">
+    <img src="saylani-logo.png" alt="saylani image" class="imgsaylani">
+    <h1>Student Registration Form</h1>
+        </div>
+    <form method="post" name="Registration Form">
+        <label>FIRST NAME:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="firstname" name="firstname"  maxlength="30" size="" placeholder="Enter Your First Name" />
+        <span>(max 30 characters a-z and A-Z)</span>
+        <br/><br/>
+
+        <label>LAST NAME:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="lastname" name="lastname"  maxlength="30" placeholder="Enter Your Last Name"/>
+        <span>(max 30 characters a-z and A-Z)</span>
+        <br/><br/>
+        
+        <label>DATE OF BIRTH:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="dob" name="dob" >
+        
+        
+        <br/><br/>
+
+        <label>EMAIL ID:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input  type="text" id="emailid" name="emailid"  maxlength="30" placeholder="Enter email address"/>
+        <br/><br/>
+
+        <label>MOBILE NUMBER:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="mobilenumber" name="mobilenumber"  maxlength="11" placeholder="Enter Mobile Number"/>
+        <span>(11 digit number)</span>
+        <br/><br/>
+
+        <label>GENDER:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="gender" name="gender" value="Male"/>Male<input type="radio" id="gender" name="gender" value="Female"/>Female
+        <br/><br/>
+        <div class="row">
+        <label>ADDRESS:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea rows="5" cols="25" id="address" maxlength="50" name="address">
+        </textarea>
+        </div>
+        <br/><br/>
+
+        <label>CITY:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="city" name="city"  maxlength="15" placeholder="Enter Your City"/>
+        <span>(max 15 characters a-z and A-Z)</span>
+        <br/><br/>
+
+        <label>PIN CODE:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="pincode" name="piccode"  maxlength="6" placeholder="Enter Your Pin Code"/>
+        <span>(6 digit number)</span>
+        <br/><br/>
+
+        <label>STATE:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="state" name="state"  maxlength="15" placeholder="Enter Your State"/>
+        <span>(max 15 characters a-z and A-Z)</span>
+        <br/><br/>
+
+        <label>COUNTRY:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="country" name="country"  maxlength="15" placeholder="Enter Your City"/>
+        <span>(max 15 characters a-z and A-Z)</span>
+        <br/><br/>
+
+        <label>HOBBIES:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Drawing<input type="checkbox" id="hobbies" name="hobbies" value="Drawing"/>
+        Singing<input type="checkbox" id="hobbies" name="hobbies" value="Singing"/>
+        Dancing<input type="checkbox" id="hobbies" name="hobbies" value="Dancing"/>
+        Sketching<input type="checkbox" id="hobbies" name="hobbies" value="Sketching"/>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Others<input type="checkbox" id="hobbies" name="hobbies" value="Others"/>
+        <input type="text" id="hobbies" name="hobbies" maxlength="15"/>
+        <br><br>
+
+        <tr height="10"></tr>
+            <tr>
+                <td style="vertical-align: top;">QUALIFICATION</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td colspan="1"></td>
+                            <td>SI.No</td>
+                            <td>Examination</td>
+                            <td align="center">Board</td>
+                            <td align="center">Percentage</td>
+                            <td align="center">Year Of Passing</td>
+                        </tr>
+                        <tr>
+                            <td colspan="1"></td>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="1"></td>
+                            <td>2</td>
+                            <td>XII</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="1"></td>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="1"></td>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td align="center">( 10 char max )</td>
+                            <td align="center">(upto 2 decimal )</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr> 
+            <tr>
+        <br><br>
+
+        <label>Course<br>Applied For</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        BCA<input type="checkbox" id="course" name="course" value="BCA"/>
+        B.Com<input type="checkbox" id="course" name="course" value="b.com"/>
+        B,Sc<input type="checkbox" id="course" name="course" value="b,sc"/>
+        B.A<input type="checkbox" id="hobbies" name="hobbies" value="b.a"/>
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <input  type="submit" name="submit" value="submit"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" name="reset" value="reset"/> -->
+        <button type="submit" name="submit"><a href="thankyou/thankyou.html">Submit</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset" name="reset">Reset</button>
+        
+        
+
+     
+    </form>
+    </div>
+</body>
+</html>

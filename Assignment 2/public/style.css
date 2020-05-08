@@ -1,0 +1,77 @@
+body{
+    color: #FFFFFF;
+}
+.maindiv{
+    max-width: 700px;
+    max-height: auto;
+    
+    margin: auto; 
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerdiv{
+    width: 400px;
+    height: 150px;
+    
+    align-self: center;
+}
+h1{
+    
+    margin: 1px;
+    color: #4585F3;
+    text-decoration: underline;
+}
+.imgsaylani{
+    width:350px;
+    height: 90px;
+    margin: 0px 20px;
+    
+
+}
+form{
+    
+    width: auto;
+    height: auto;
+    padding: 60px;
+    background-color: rgb(131, 0, 253);
+
+}
+.row{
+    display: flex;
+    
+}
+.td{
+    background-color: #FFFFFF;
+    color:#000000;
+}
+thead tbody{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    
+}
+td,th{
+    font-size: 16px;
+    text-align: center;
+  
+    }
+    
+button{
+width: 100px;
+height: 30px;
+text-align: center;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+background-color: #0031b8;
+border-radius: 20px;
+color: #ffffff;
+
+    }
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
